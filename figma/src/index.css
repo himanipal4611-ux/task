@@ -1,0 +1,119 @@
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* *{
+    font-family: sans-serif;
+}
+
+.home-main{
+    height: 80%;
+    overflow: hidden;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    line-height: 0.75;
+}
+.bg-img{
+    max-width: 2000px;
+    margin: auto;
+}
+.home-heading{
+    color: white;
+    margin: 20px !important;
+    text-align: start;
+    padding-left: 100px;
+    margin: 20px 20px;
+    font-size: 34px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.home-h2-heading{
+    text-align: start;
+    padding-left: 120px;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.left-heading{
+    width: 100%;
+   display: flex;
+   padding: 20px 40px;
+   gap: 30px;
+} 
+ .form-div{
+    width: 50%;
+    height: 200px;
+} 
+.home-btn{
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 300;
+    border: none;
+    margin-right: 155px;
+    margin-top: 20px;
+}
+.home-head{
+    color: white;
+    margin: 20px;
+    text-align: start;
+    padding-left: 100px;
+    margin: 20px 20px;
+    font-size: 34px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    padding-top: 25px;
+}
+.form{
+    width: 40%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 40px;
+
+}
+.form-heading{
+    color: rgb(112, 111, 111);
+    font-size: 30px;
+    font-weight: 400;
+}
+.dream{
+    color: black;
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 60px;
+    outline: none;
+    padding: 40px;
+}
+.hidB{
+    border: none;
+    width: 100%;
+    outline: none;
+}
+.borB{
+    border-bottom: 1px solid black;
+}
+
+
+
+.logo{
+    height: 60px;
+    margin-left: 70px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+.nav-heading{
+    text-transform: capitalize;
+}  */
