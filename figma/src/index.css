@@ -2,12 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* .inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+ body{
+   font-family: "Inter", sans-serif;
+ 
+ };
+ .himani{
+font-family: "Inter", sans-serif;   
+ }
 /* *{
     font-family: sans-serif;
 }
-
-.home-main{
+mere i
+.home-main{     
     height: 80%;
     overflow: hidden;
     font-size: 20px;
@@ -29,7 +41,7 @@
     margin: 20px 20px;
     font-size: 34px;
     text-transform: capitalize;
-    font-weight: bold;
+    font-weight: bold;               
 }
 .home-h2-heading{
     text-align: start;
