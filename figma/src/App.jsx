@@ -1,15 +1,20 @@
-import React from 'react'
-import Navbar from './component/Navbar'
-import Home from './component/Home'
-import  Development  from './component/Development'
-import Section from './component/Section'
-import { Portfolio } from './component/Portfolio'
-import { Dealing } from './component/Dealing'
 import { Award } from './component/Award'
-import { Trust } from './component/Trust'
-import { Features } from './component/Features'
-import { Customized } from './component/Customized'
+import { Business } from './component/Business'
 import { Choose } from './component/Choose'
+import { Customized } from './component/Customized'
+import { Dealing } from './component/Dealing'
+import Development from './component/Development'
+import { Features } from './component/Features'
+import Footers from './component/Footers'
+import Home from './component/Home'
+import Level from './component/Level'
+import { Mobileapp } from './component/Mobileapp'
+import Navbar from './component/Navbar'
+import { Portfolio } from './component/Portfolio'
+import Section from './component/Section'
+import { Services } from './component/Services'
+import { Trust } from './component/Trust'
+// import { Footer} from './component/Footer'
 
 
 
@@ -18,6 +23,9 @@ const App = () => {
     <>
       <Navbar/> 
       <Home/> 
+      <Mobileapp/>
+      <Level/>
+      <Services/>
       <Development/>
       <Section/>
       <Portfolio/>  
@@ -27,6 +35,8 @@ const App = () => {
       <Features/>
       <Customized/>
       <Choose/>
+      <Business/>
+      <Footers/>
     </>
   )
 }

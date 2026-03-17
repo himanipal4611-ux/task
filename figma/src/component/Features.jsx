@@ -23,20 +23,27 @@ const apps = [
 
 export const Features = () => {
   return (
- <div>
-     <section className="font-sans tracking-tighter py-10">
-      <h2 className="text-center font-medium  text-3xl capitalize">A complete feature-suite to build your custom mobile apps</h2>
-      <h3 className="text-center font-normal text-2xl capitalize pb-10">We offer end-to-end features to drive engagement & revenue for your brand</h3>
+    <section className="py-16 sm:py-20 px-4 sm:px-6">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-center text-xl sm:text-2xl md:text-3xl font-semibold mb-4">
+          A complete feature-suite to build your custom mobile apps
+        </h2>
+        <h3 className="text-center text-base sm:text-lg md:text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+          We offer end-to-end features to drive engagement & revenue for your brand
+        </h3>
 
-      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto text-center capitalize font-normal text-xl">
-        {apps.map((app, index) => (
-          <div className="flex flex-col items-center outline  outline-blue-100 py-10" key={index}>
-            <img src={app.image} alt={app.title} />
-            <h4>{app.title}</h4>
-          </div>
-        ))}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+          {apps.map((app, index) => (
+            <div
+              className="flex flex-col items-center border border-blue-100 rounded-xl p-6 md:p-8 shadow-lg transition"
+              key={index}
+            >
+              <img src={app.image} alt={app.title} className="h-12 sm:h-14 md:h-16 mb-4" />
+              <h4 className="text-base sm:text-lg md:text-xl font-medium text-center">{app.title}</h4>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
- </div>
   );
 };
